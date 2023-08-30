@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista de times</title>
+<link rel="stylesheet" href="">
+</head>
+<body>
+
+    <h1>FORMULÁRIO NO HTML</h1>
+    <hr>
+    <br>
+    <h2>Selecione seu Time:</h2>
+    <form method="post" id="fContato" action="mailto:Gabriel.Almeida1102@outlook.com"oninput="result.value=parseInt(valor_01.value)+parseInt(valor_02.value)">
+
+
+    <label for="time">Escolha seu Time:</label>
+    <select name="time" id="time">
+<option value="op1" disabled selected >seleciona seu time </option>
+<option value="corinthians">Tombense</option>
+<option value="palmeiras">Sampaio Corrêa</option>
+<option value="botafogo">Sport Recife</option>
+<option value="saopaulo">Figuerense</option>
+</select>
+<br><br><br>
+<hr>
+<form>
+<h2>Selecione sua cidade:</h2>
+
+<label for="cidade">Qual é a sua cidade?</label>
+<input type="text" name="cidade" id="cidade" list="sugestao" autocomplete="on" placeholder=" sua cidade">
+<datalist id="sugestao">
+    <option value="Entrepelado"></option>
+    <option value="Rolândia"></option>
+    <option value="Combinado"></option>
+    <option value="Anta Gorda"></option>
+
+</datalist>
+<br><br>
+<hr>
+<h2>Sua boniteza:</h2>
+0
+<input type="range" name="valor-01" id="valor-01">
+10
+<br><br>
+<hr>
+<br>
+<label for="text1">Informações:</label> <br>
+<textarea name="text1" id="text1" cols="5" rows="5" placeholder="Ideias" maxlength="10" required></textarea>
+<br><br>
+<hr>
+<fieldset>
+        
+    <form method="post" id="fcontato">
+ <legend>Indentificação</legend>
+ <form action="#">
+    <label for="cname">Nome:</label>
+    <input type="text" id="cnome">
+    <br><br>
+    <label for="cname">Sobrenome:</label>
+    <input type="text" id="csobrenome">
+    <br><br>
+    <label for="cname">E-mail:</label>
+<input type="text" id="cEmail" required>
+<!--é uma marcação que determina um campo de entrada-->
+<br><br>
+<h2>CURSOS DO IOS:</h2>
+<input type="radio" name="curso" id="op1">
+<label for="op1">SUPORTE T.I </T></label>
+<br><br>
+<input type="radio" name="curso" id="op2">
+<label for="OP2"> GESTÃO EMPRESARIAL</label>
+<br><br> 
+<input type="radio" name="curso" id="op3">
+<label for="op3">DESENVOLVIMETO WEB</label>
+<BR></BR>
+
+<H2>MEIOS DE TRANSPORTES:</H2>
+<input type="checkbox" name="TRANSPORTES" id="TRANSPORTES" value="TP1">
+<label for="TRANSPORTES">ÔNIBUS</label>
+<BR></BR>
+<input type="checkbox" name="TRANSPORTES 2" id="TRANSPORTES 2" value="tp2">
+<label for="TRANSPORTES 2">BIKE</label>
+<br><br>
+<input type="checkbox" name="TRANSPORTES 3" id="TRANSPORTES 3" value="tp3">
+<label for="TRANSPORTES 3">CARRO</label>
+<BR></BR>
+<input type="checkbox" name="TRANSPORTES 4" id="TRANSPORTES 4" value="tp4">
+<label for="TRANSPORTES">METRÔ</label>
+<br><br>
+<input type="submit" value="enviar"/>
+
+
+
+</fieldset>
+</form>
+
+</body>
+
+</html>
